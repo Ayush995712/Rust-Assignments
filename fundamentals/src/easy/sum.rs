@@ -1,4 +1,4 @@
-/*
+ /*
   Problem 1: Sum of Two Numbers
 
   Write a function that takes two i32 integers and returns their sum.
@@ -8,5 +8,10 @@
 */
 
 pub fn add(a: i32, b: i32) -> i32 {
-    todo!()
+    return a + b;
+}
+
+fn main() {
+  let result: i32 = add( 2, 3);
+  println!("{}", result);
 }
